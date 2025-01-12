@@ -47,42 +47,42 @@ const Contact = () => {
     <div id="contact" className="bg-[#ffffff] min-h-screen flex items-center justify-center">
       <div className="max-w-[90%] md:max-w-[75%] mx-auto font-inter space-y-10 py-10">
         <div className="text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#fe5617]">
+          <h2 className="text-4xl md:text-5xl font-bold text-center text-[#008080]">
             Get in touch
           </h2>
         </div>
         <div className="flex flex-col items-center md:flex-row gap-[150px] justify-center">
           <div className="flex flex-col space-y-5 text-lg md:text-xl font-semibold">
             <div className="flex items-center gap-3">
-              <FaLocationDot className="text-[#fe5617]" size={20} />
-              <span>Pondicherry</span>
+              <FaLocationDot className="text-[#008080]" size={20} />
+              <span>Nagapattinam</span>
             </div>
             <div className="flex items-center gap-3">
-              <FaPhoneAlt className="text-[#fe5617]" size={20} />
-              <span>9092595881</span>
+              <FaPhoneAlt className="text-[#008080]" size={20} />
+              <span>6385321056</span>
             </div>
             <div className="flex items-center gap-3">
-              <FaEnvelope className="text-[#fe5617]" size={20} />
-              <span>immucoder@gmail.com</span>
+              <FaEnvelope className="text-[#008080]" size={20} />
+              <span>smartlenin348@gmail.com</span>
             </div>
             <div className="flex flex-col items-center gap-3">
               <h2 className="text-xl font-bold">Follow on</h2>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/AMOHAMMEDIMRAN"
-                  className="hover:text-[#fe5617]"
+                  href="https://github.com/leninj48/"
+                  className="hover:text-[#008080]"
                 >
                   <FaGithub size={29} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/mohammedimrana/"
-                  className="hover:text-[#fe5617]"
+                  href="https://www.linkedin.com/in/lenin-j/"
+                  className="hover:text-[#008080]"
                 >
                   <FaLinkedin size={29} />
                 </a>
                 <a
-                  href="https://www.instagram.com/immucoder/?__pwa=1"
-                  className="hover:text-[#fe5617]"
+                  href="https://www.instagram.com/_lazy_lenin_/"
+                  className="hover:text-[#008080]"
                 >
                   <FaInstagram size={29} />
                 </a>
@@ -95,7 +95,7 @@ const Contact = () => {
             onSubmit={handleSubmit}
             className="flex flex-col gap-5 w-full max-w-md"
           >
-            <h2 className="text-2xl font-bold text-[#fe5617] text-center">
+            <h2 className="text-2xl font-bold text-[#008080] text-center">
               Send a Message
             </h2>
             <input
@@ -126,7 +126,7 @@ const Contact = () => {
             ></textarea>
             <button
               type="submit"
-              className="bg-[#fe5617] text-white py-3 rounded-md font-semibold hover:bg-[#d44810] disabled:opacity-50"
+              className="bg-[#008080] text-white py-3 rounded-md font-semibold hover:bg-[#d44810] disabled:opacity-50"
               disabled={isSubmitting}
             >
               {isSubmitting ? "Sending..." : "Send Message"}

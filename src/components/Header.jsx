@@ -11,8 +11,8 @@ const Header = () => {
       <div className="max-w-[90%] mx-auto py-3 flex items-center justify-between font-inter">
         {/* Logo */}
         <div>
-          <h1 className="text-[2.5rem] font-bold text-[#000] hover:text-[#fe5617] ">
-            Imran.
+          <h1 className="text-[2.5rem] font-bold text-[#000] hover:text-[#008080] ">
+            Lenin J.
           </h1>
         </div>
 
@@ -20,7 +20,7 @@ const Header = () => {
         <div className="lg:hidden">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className=" transition-all duration-500 ease-in text-[#fe5617] "
+            className=" transition-all duration-500 ease-in text-[#008080] "
           >
             {isMenuOpen ? <HiX size={29} /> : <HiMenuAlt3 size={29} />}
           </button>
@@ -34,21 +34,21 @@ const Header = () => {
         >
           <ul className="flex flex-col gap-3 lg:flex-row lg:items-center lg:gap-5 text-[14px] font-semibold">
            <Link to="home" smooth={true} duration={500}>
-           <li className="hover:text-[#fe5617] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
+           <li className="hover:text-[#008080] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
               Home
             </li></Link>
             <Link to="about" smooth={true} duration={500}>
-            <li className="hover:text-[#fe5617] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
+            <li className="hover:text-[#008080] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
               About
             </li>
             </Link>
            <Link to="project" smooth={true} duration={500}>
-           <li className="hover:text-[#fe5617] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
+           <li className="hover:text-[#008080] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
               Project
             </li>
            </Link>
             <Link to="contact" smooth={true} duration={500}>
-            <li className="hover:text-[#fe5617] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
+            <li className="hover:text-[#008080] cursor-pointer transition-transform duration-300 ease-in transform hover:translate-y-[-7px] ">
               Contact
             </li>
             </Link>
@@ -60,20 +60,20 @@ const Header = () => {
             } lg:hidden mt-3 flex justify-center gap-5`}
           >
             <a
-              href="https://github.com/AMOHAMMEDIMRAN"
-              className="  hover:text-[#fe5617] "
+              href="https://github.com/leninj48/"
+              className="  hover:text-[#008080] "
             >
               <FaGithub size={29} />
             </a>
             <a
-              href="https://www.linkedin.com/in/mohammedimrana/"
-              className="hover:text-[#fe5617]"
+              href="https://www.linkedin.com/in/lenin-j/"
+              className="hover:text-[#008080]"
             >
               <FaLinkedin size={29} />
             </a>
             <a
-              href="https://www.instagram.com/immucoder/?__pwa=1"
-              className="hover:text-[#fe5617]"
+              href="https://www.instagram.com/_lazy_lenin_/"
+              className="hover:text-[#008080]"
             >
               <FaInstagram size={29} />
             </a>
@@ -83,20 +83,20 @@ const Header = () => {
         {/* Social Media Links */}
         <div className="hidden lg:flex w-[100px] items-center justify-between">
           <a
-            href="https://github.com/AMOHAMMEDIMRAN"
-            className="hover:text-[#fe5617]"
+            href="https://github.com/leninj48/"
+            className="hover:text-[#008080]"
           >
             <FaGithub size={29} />
           </a>
           <a
-            href="https://www.linkedin.com/in/mohammedimrana/"
-            className="hover:text-[#fe5617]"
+            href="https://www.linkedin.com/in/lenin-j/"
+            className="hover:text-[#008080]"
           >
             <FaLinkedin size={29} />
           </a>
           <a
-            href="https://www.instagram.com/immucoder/?__pwa=1"
-            className="hover:text-[#fe5617]"
+            href="https://www.instagram.com/_lazy_lenin_/"
+            className="hover:text-[#008080]"
           >
             <FaInstagram size={29} />
           </a>
