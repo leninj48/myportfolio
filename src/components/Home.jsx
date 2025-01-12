@@ -18,7 +18,7 @@ const Home = () => {
               options={{
                 strings: [
                   "Django Developer.",
-                  "Python FullStack Developer.",
+                  "Python FullStack Dev.",
                   "Web Developer.",
                 ],
                 autoStart: true,
@@ -58,7 +58,7 @@ const Home = () => {
         {/* Right Section */}
         <div className="order-1 lg:order-2 flex justify-end items-center">
           <img
-            className="w-[70%] rounded-[50px]"
+            className="w-[85%] rounded-[50px]"
             src="./prof.jpg"
             alt="Profile"
           />
